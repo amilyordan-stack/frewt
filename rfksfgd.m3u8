@@ -1,7 +1,8 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="Sportklub 1" tvg-logo="https://tvnow.dpdns.org/logo/sports/sportklub1.png" group-title="Sports",Sportklub 1
+#EXTINF:-1 tvg-id="Sportklub 1" tvg-name="Sportklub 1" tvg-logo="https://tvnow.dpdns.org/logo/sports/sportklub1.png" group-title="Sports" license_type="org.w3.clearkey" license_key="{feb6a0d5bdf95721a695bdda83c3a945:a96bf27d36cd9ede447c5c392511ed5d,9e5d2c5321be5fcd9a64aad198796f3b:eaede944fee4e66cb3892784883c6ce8,80119f3e574454218d31cf464b420c5e:d71e3186c4e037279b4c12197b860551}",Sportklub 1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"feb6a0d5bdf95721a695bdda83c3a945":"a96bf27d36cd9ede447c5c392511ed5d","9e5d2c5321be5fcd9a64aad198796f3b":"eaede944fee4e66cb3892784883c6ce8","80119f3e574454218d31cf464b420c5e":"d71e3186c4e037279b4c12197b860551"}
-https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/sk1/default/index.mpd|User-Agent=Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv)&X-Forwarded-For=195.29.70.181
+#EXTHTTP:{"user-agent":"Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36","x-forwarded-for":"195.29.70.181"}
+https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/sk1/default/index.mpd|User-Agent=Mozilla/5.0 (Linux; Android 11; SHIELD Android TV Build/RQ1A.210105.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.130 Mobile Safari/537.36&X-Forwarded-For=195.29.70.181
